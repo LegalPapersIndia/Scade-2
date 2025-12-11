@@ -81,7 +81,6 @@ const EnquiryPopup = ({ autoOpen = false }) => {
 
   return (
     <>
-      {/* Floating WhatsApp Button */}
       <motion.button
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
@@ -122,7 +121,7 @@ const EnquiryPopup = ({ autoOpen = false }) => {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                placeholder="Aapka Name *"
+                placeholder="Your Name"
                 className="w-full px-5 py-4 rounded-xl border-2 border-gray-200 focus:border-cyan-500 outline-none"
               />
               <input
@@ -130,7 +129,7 @@ const EnquiryPopup = ({ autoOpen = false }) => {
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
-                placeholder="Phone Number *"
+                placeholder="Contact Number"
                 className="w-full px-5 py-4 rounded-xl border-2 border-gray-200 focus:border-cyan-500 outline-none"
               />
               <input
@@ -138,7 +137,7 @@ const EnquiryPopup = ({ autoOpen = false }) => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                placeholder="Email (optional)"
+                placeholder="Your Email"
                 className="w-full px-5 py-4 rounded-xl border-2 border-gray-200 focus:border-cyan-500 outline-none"
               />
 
