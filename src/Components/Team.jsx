@@ -15,7 +15,7 @@ const teamImages = {
 const TeamSection = () => {
   const teamMembers = [
     {
-      name: 'Dr. Chinmai V S (PT)',
+      name: 'Dr. Chinmai V S , PT',
       role: 'Managing Director',
       qualifications: 'PT, CTTS, CIASTMT, CDNT, CAFPCT, OMT',
       bio: 'Clinical expert in advanced physiotherapy and functional rehabilitation. She founded SCADE to bring science-backed wellness into every home.',

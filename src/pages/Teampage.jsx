@@ -11,7 +11,7 @@ const Team = () => {
 
   const teamMembers = [
     {
-      name: "Dr. Chinmai V S (PT)",
+      name: "Dr. Chinmai V S , PT",
       role: "Managing Director",
       qualifications: "PT, CTTS, CIASTMT, CDNT, CAFPCT, OMT",
       background: "Clinical expert in advanced physiotherapy, manual therapy, dry needling, and functional rehab.",
@@ -23,7 +23,7 @@ const Team = () => {
       icon: Stethoscope
     },
     {
-      name: "Deekshi P",
+      name: "Deekshith P",
       role: "Technical Head",
       qualifications: "Mechatronics Engineer",
       background: "Specialized in mechatronics, 3D design, CAD modeling, sensor systems, and Arduino programming.",
@@ -190,13 +190,6 @@ const Team = () => {
                         </motion.div>
                       )}
                     </AnimatePresence>
-
-                    {/* Footer Badge */}
-                    <div className="mt-8 pt-5 border-t border-cyan-100 flex items-center justify-center gap-2 text-cyan-700 text-xs sm:text-sm">
-                      <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-cyan-600" />
-                      <span className="font-medium">SCADE Technologies • Mysore</span>
-                      <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-cyan-600" />
-                    </div>
                   </div>
                 </div>
               </motion.div>

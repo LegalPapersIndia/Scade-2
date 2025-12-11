@@ -15,9 +15,7 @@ import Tavarum from "../Asset/tavarum.png"
 const Innovations = () => {
   return (
     <>
-      {/* Premium Google Fonts – Add this to your index.html or public/index.html */}
-      {/* <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet"> */}
-
+      
       <div className="relative min-h-screen bg-gradient-to-b from-blue-50/40 via-white to-cyan-50/60 py-24 lg:py-40 px-6 overflow-hidden"
            style={{ fontFamily: "'Manrope', sans-serif" }}>
         
@@ -106,10 +104,10 @@ const Innovations = () => {
 
               <ul className="mt-10 space-y-6">
                 {[
-                  "Extracts water from humidity – no pipes needed",
-                  "9-stage purification + natural mineralization",
-                  "Alkaline pH 8–9.5 • Rich in calcium & magnesium",
-                  "Zero plastic. Zero waste. Zero dependency",
+                  "Extracts water from air",
+                  "natural mineralization",
+                  "Alkaline pH 8–9.5 • ",
+                  "Zero Water waste",
                   "Home • Office • Off-grid models available"
                 ].map((item, i) => (
                   <motion.li
