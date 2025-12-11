@@ -98,8 +98,8 @@ const Home = () => {
                       Discover Tavarum
                     </Link>
                     <a
-                      href={getWhatsAppLink("Hi SCADE! Interested in Tavarum organic hair range. Please share products list.")}
-                      target="_blank"
+                      href="/"
+                      target="#"
                       rel="noopener noreferrer"
                       className="border-2 border-white/90 px-8 sm:px-10 py-4 sm:py-5 rounded-full text-lg sm:text-xl font-bold hover:bg-white hover:text-amber-700 transition-all duration-300 flex items-center justify-center gap-3 backdrop-blur-sm"
                     >
